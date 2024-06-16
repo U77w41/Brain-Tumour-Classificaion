@@ -37,6 +37,16 @@ Several optimization techniques are experimented with to fine-tune the model:
 3. **RMSprop:** Another adaptive learning rate optimization algorithm.
 4. **AdaGrad:** Adaptive gradient optimization algorithm.
 
+
+## Snapshot Learning using VGG-16
+Snapshot learning is a training technique that involves saving multiple snapshots of a model during its training process. This approach is particularly useful for ensemble learning, where combining multiple models can lead to better performance and generalization. One popular architecture for implementing snapshot learning is the VGG-16 model.
+
+Snapshot learning involves training a single model and periodically saving the state of the model (snapshots) at different points in the training process. These snapshots are then used to create an ensemble model that combines the predictions of all saved snapshots, often leading to improved performance.
+
+
+
+
+
 ## Experimentation and Tuning
 
 The optimization parameters for each technique are carefully tuned to achieve optimal performance. The model undergoes thorough experimentation to identify the best combination of hyperparameters and optimization algorithms for the given task.
